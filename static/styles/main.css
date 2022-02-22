@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Goldman&family=Source+Code+Pro:ital@1&display=swap");
+
+:root {
+  --peru: rgb(153, 0, 0);
+  --peru-light: rgb(185, 3, 3);
+
+  --white: rgb(248, 248, 248);
+  --grey: rgba(233, 232, 232, 0.801);
+  --dark-grey: rgba(212, 209, 209, 0.925);
+
+  --xs: 4px;
+  --s: 8px;
+  --m: 16px;
+  --l: 24px;
+  --xl: 48px;
+  --xxl: 96px;
+
+  --duration: 1500ms;
+  --delay: 0ms;
+
+  --primary-font: "Montserrat", sans-serif, "Source Code Pro", monospace,
+    cursive, "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  background-color: var(--white);
+
+  font-family: var(--primary-font);
+  font-weight: 300;
+}
+
+a:hover {
+  text-decoration: none;
+  color: var(--grey);
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.font-small {
+  font-size: small;
+}
+
+.font-large {
+  font-size: large;
+}
+
+.red-btn {
+  color: var(--white);
+  background-color: var(--peru);
+  border-radius: var(--s);
+  border-color: var(--white);
+
+  padding: var(--s) var(--m);
+  transition-duration: 250ms;
+}
+
+.red-btn:hover {
+  background-color: var(--peru-light);
+  border-color: transparent;
+}
+
+.NavBar-logo {
+  width: 25vw;
+  height: auto;
+  margin-right: var(--s);
+}
+
+.Header-container {
+  color: var(--white);
+  margin: 2% 4% 0%;
+  padding: 5vh 0%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  color: var(--white);
+  background-color: var(--peru);
+  border-color: transparent;
+  border-radius: var(--l);
+}
+
+.Header-heading {
+  margin: 2%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 3.8em;
+}
+
+.Header-subheading {
+  color: var(--grey);
+  margin: 0% 0% 4%;
+}
+
+.join-btn {
+  color: black;
+  background-color: var(--white);
+  border-radius: var(--s);
+  border-color: var(--white);
+
+  padding: var(--s) var(--m);
+  transition-duration: 250ms;
+}
+
+.join-btn:hover {
+  color: black;
+  background-color: var(--dark-grey);
+  border-color: transparent;
+}
