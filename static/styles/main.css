@@ -131,8 +131,9 @@ a:hover {
 }
 
 .Moto-container {
+  width: 60vw;
   margin: var(--xl);
-  font-size: xx-large;
+  text-align: center;
 }
 
 .About-container1 {
