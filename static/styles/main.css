@@ -49,12 +49,17 @@ a:hover {
   font-size: large;
 }
 
+.font-faded {
+  color: gray;
+}
+
 .red-btn {
   color: var(--white);
   background-color: var(--peru);
   border-radius: var(--s);
   border-color: var(--white);
 
+  width: fit-content;
   padding: var(--s) var(--m);
   transition-duration: 250ms;
 }
@@ -70,8 +75,16 @@ a:hover {
   margin-right: var(--s);
 }
 
+.main-container {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
 .Header-container {
   color: var(--white);
+  width: 92%;
   margin: 2% 4% 0%;
   padding: 5vh 0%;
 
@@ -115,4 +128,41 @@ a:hover {
   color: black;
   background-color: var(--dark-grey);
   border-color: transparent;
+}
+
+.Moto-container {
+  margin: var(--xl);
+  font-size: xx-large;
+}
+
+.About-container1 {
+  margin: var(--xl);
+
+  display: grid;
+  gap: var(--xl);
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: auto;
+}
+
+.About-container2 {
+  margin: var(--xl);
+  display: grid;
+  gap: var(--xl);
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: auto;
+}
+
+/* .About-content > section {
+    padding-top: var(--l);
+} */
+
+.About-content {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-evenly;
+}
+
+.About-img {
+  width: 100%;
 }
