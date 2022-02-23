@@ -137,6 +137,7 @@ a:hover {
 
 .About-container1 {
   margin: var(--xl);
+  width: 70vw;
 
   display: grid;
   gap: var(--xl);
@@ -146,6 +147,8 @@ a:hover {
 
 .About-container2 {
   margin: var(--xl);
+  width: 70vw;
+
   display: grid;
   gap: var(--xl);
   grid-template-columns: 2fr 1fr;
@@ -166,4 +169,10 @@ a:hover {
 .Footer-container {
   margin: var(--xl);
   font-size: xx-large;
+}
+
+@media only screen and (max-width: 1250px) {
+  .About-container1, .About-container2 {
+    grid-template-columns: 1fr;
+  }
 }
