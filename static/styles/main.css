@@ -152,10 +152,6 @@ a:hover {
   grid-template-rows: auto;
 }
 
-/* .About-content > section {
-    padding-top: var(--l);
-} */
-
 .About-content {
   display: flex;
   flex-direction: column;
@@ -165,4 +161,9 @@ a:hover {
 
 .About-img {
   width: 100%;
+}
+
+.Footer-container {
+  margin: var(--xl);
+  font-size: xx-large;
 }
